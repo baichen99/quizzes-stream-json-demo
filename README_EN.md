@@ -1,5 +1,7 @@
 English | [中文](./README.md)
 
+**🎮 [Live Demo](https://quizzes-stream-json-demo-odum.vercel.app/)**
+
 ---
 
 In August 2025, ChatGPT launched the flashcard quiz feature, allowing users to generate interactive quizzes on any topic - whether for academic learning, professional skills, or personal interests - to quickly obtain complete quiz content with options and answers.

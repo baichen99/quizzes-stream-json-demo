@@ -1,5 +1,7 @@
 [English](./README_EN.md) | 中文
 
+**🎮 [在线演示](https://quizzes-stream-json-demo-odum.vercel.app/)**
+
 ---
 
 2025年8月，ChatGPT 上线了 flashcard 测验功能，用户可针对任意主题生成交互式测验，无论是学术学习、职业技能还是兴趣知识，都能快速获得带选项和答案的完整测验内容。
