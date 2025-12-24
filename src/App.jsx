@@ -96,25 +96,25 @@ function App() {
         </div>
         <div className="controls">
           <button className="control-btn" onClick={handlePrev} disabled={loadedQuizzes.length === 0}>
-            上一张
+            Previous
           </button>
           <button className="control-btn" onClick={handleNext} disabled={loadedQuizzes.length === 0}>
-            下一张
+            Next
           </button>
         </div>
         <div className="status-panel">
           <div className="status-info">
             <div className="status-item">
-              <span className="status-label">已加载问题数：</span>
+              <span className="status-label">Loaded:</span>
               <span className="status-value">{loadedQuizzes.length} / {mockQuizzes.length}</span>
             </div>
             <div className="status-item">
-              <span className="status-label">状态：</span>
-              <span className="status-value">{isLoading ? '加载中...' : '加载完成'}</span>
+              <span className="status-label">Status:</span>
+              <span className="status-value">{isLoading ? 'Loading...' : 'Complete'}</span>
             </div>
           </div>
           <div className="raw-data">
-            <div className="raw-data-label">原始数据：</div>
+            <div className="raw-data-label">Raw Data:</div>
             <pre className="raw-data-content">{rawData}</pre>
           </div>
         </div>
